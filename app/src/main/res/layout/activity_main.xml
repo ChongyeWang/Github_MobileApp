@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:id="@+id/gitimage"/>
+
+        <TextView
+            android:text="Wang, Chongye"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="Email: chongye2@illinois.edu"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <Button
+            android:text="Repositories"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/repositories"
+            android:textStyle="bold"/>
+
+        <Button
+            android:text="Following"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/following"
+            android:textStyle="bold"/>
+        <Button
+            android:text="Followers"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/followers"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Get GitHub Information"
+            android:id="@+id/gitInfo"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Search"
+            android:id="@+id/search"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>
