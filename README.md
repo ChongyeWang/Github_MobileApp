@@ -1,12 +1,12 @@
 # Github_MobileApp
 
-User can interact with their personal github account: 
+Users can interact with their personal github account by: 
 
-View github information, including, repositories, followings and followers, etc.
+1.View github information, including, repositories, followings and followers, etc.
 
-Star or unstar a repository.
+2.Star or unstar a repository.
 
-Follow or unfollow a user.
+3.Follow or unfollow a user.
 
-Search users by their name.
+4.Search users by their name.
 
